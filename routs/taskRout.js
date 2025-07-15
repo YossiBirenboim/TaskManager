@@ -12,6 +12,10 @@ router.get('/', async (req, res) => {
   const tasks = await Task.find().sort({ createdAt: -1 }) // 🔽 newest first
   res.json(tasks)
 })
+router.get('/x', async (req, res) => {
+ 
+  res.json('<h1>welcome</h1>')
+})
 
 
 router.post('/', async(req, res) =>{
