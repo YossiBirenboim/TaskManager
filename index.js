@@ -1,7 +1,7 @@
 import express from 'express'
 import mongoose from 'mongoose'
 import cors from 'cors'
-import taskRout from '../back/routs/taskRout.js'
+import taskRout from './routs/taskRout.js'
  
 
 import dotenv from 'dotenv'
