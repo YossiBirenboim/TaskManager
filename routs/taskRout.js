@@ -14,7 +14,7 @@ router.get('/', async (req, res) => {
 })
 router.get('/x', async (req, res) => {
  
-  res.json('<h1>welcome</h1>')
+  res.send('<h1>welcome</h1>')
 })
 
 
